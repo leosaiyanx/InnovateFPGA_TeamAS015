@@ -1,0 +1,10 @@
+Requirements:
+- FPGA Programming Mode: Passive Parralel x 16 (Jumpers set to all ON)
+
+1. Program Pre-loader
+
+  --> Run the following command as "Admin"
+  --> alt-boot-disk-util.exe -p preloader-mkpimage.bin -a write -d g
+  
+
+2. Copy the remaining files in the directory to the FAT file system on the SD card
