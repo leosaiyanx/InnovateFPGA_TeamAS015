@@ -23,7 +23,8 @@ Hardware Requirements:
 1. Program Pre-loader
 
   --> Run the following command as "Admin"
-  --> alt-boot-disk-util.exe -p preloader-mkpimage.bin -a write -d g
+  --> alt-boot-disk-util.exe -p preloader-mkpimage.bin -a write -d <sd-drive-letter>
+      i.e: alt-boot-disk-util.exe -p preloader-mkpimage.bin -a write -d g
   
 
 2. Copy the remaining files in the sd_card_boot_files directory to the FAT file system on the SD card
