@@ -24,6 +24,7 @@ Hardware Requirements:
 
   --> Run the following command as "Admin"
   --> alt-boot-disk-util.exe -p preloader-mkpimage.bin -a write -d g
+  
   NOTE: "g" is the sd card drive letter in this example
   
 
